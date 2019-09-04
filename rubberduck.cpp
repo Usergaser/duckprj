@@ -2,11 +2,7 @@
 
 RubberDuck::RubberDuck()
 {
-
-}
-
-void RubberDuck::fly() {
-
+    flyBehavior = new FlyNoWay();
 }
 
 void RubberDuck::display() {

@@ -7,8 +7,6 @@ class DecoyDuck : public Duck
 {
 public:
     DecoyDuck();
-    void quack();
-    void fly();
     void display();
 };
 

@@ -2,14 +2,18 @@
 #define DUCK_H
 
 #include <iostream>
+#include "flybehavior.h"
+#include "flywithwings.h"
+#include "flynoway.h"
 
 class Duck
 {
+protected:
+    FlyBehavior *flyBehavior;
 public:
     Duck();
-    void quack();
+    void performFly();
     void swim();
-    void fly();
     virtual void display() = 0;
 };
 

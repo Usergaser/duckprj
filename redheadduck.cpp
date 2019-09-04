@@ -2,7 +2,7 @@
 
 RedheadDuck::RedheadDuck()
 {
-
+    flyBehavior = new FlyWithWings();
 }
 
 void RedheadDuck::display() {

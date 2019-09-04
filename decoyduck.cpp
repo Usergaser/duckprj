@@ -2,15 +2,7 @@
 
 DecoyDuck::DecoyDuck()
 {
-
-}
-
-void DecoyDuck::quack() {
-
-}
-
-void DecoyDuck::fly() {
-
+    flyBehavior = new FlyNoWay();
 }
 
 void DecoyDuck::display() {

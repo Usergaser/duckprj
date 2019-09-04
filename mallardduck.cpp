@@ -2,7 +2,7 @@
 
 MallardDuck::MallardDuck()
 {
-
+    flyBehavior = new FlyWithWings();
 }
 
 void MallardDuck::display() {
