@@ -7,6 +7,7 @@ class MallardDuck : public Duck
 {
 public:
     MallardDuck();
+    void display();
 };
 
 #endif // MALLARDDUCK_H

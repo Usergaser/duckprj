@@ -19,7 +19,8 @@ SOURCES += \
     duck.cpp \
     mallardduck.cpp \
     redheadduck.cpp \
-    rubberduck.cpp
+    rubberduck.cpp \
+    decoyduck.cpp
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -30,4 +31,5 @@ HEADERS += \
     duck.h \
     mallardduck.h \
     redheadduck.h \
-    rubberduck.h
+    rubberduck.h \
+    decoyduck.h

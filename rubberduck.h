@@ -7,6 +7,7 @@ class RubberDuck : public Duck
 {
 public:
     RubberDuck();
+    void fly();
     void display();
 };
 
