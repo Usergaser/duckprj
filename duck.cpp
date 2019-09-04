@@ -12,3 +12,7 @@ void Duck::quack() {
 void Duck::swim() {
     std::cout << "Swim" << std::endl;
 }
+
+void Duck::fly() {
+    std::cout << "Fly" << std::endl;
+}
