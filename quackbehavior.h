@@ -2,10 +2,10 @@
 #define QUACKBEHAVIOR_H
 #include<iostream>
 
-class QuackBehaviour
+class QuackBehavior
 {
 public:
-    QuackBehaviour();
+    QuackBehavior();
     virtual void quack() = 0;
 
 };

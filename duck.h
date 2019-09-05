@@ -12,7 +12,7 @@ class Duck
 {
 protected:
     FlyBehavior *flyBehavior;
-    QuackBehaviour *quackbehavior;
+    QuackBehavior *quackbehavior;
 public:
     Duck();
     void performQuack();

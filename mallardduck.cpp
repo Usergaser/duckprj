@@ -3,6 +3,7 @@
 MallardDuck::MallardDuck()
 {
     flyBehavior = new FlyWithWings();
+    quackbehavior = new quackalive();
 }
 
 void MallardDuck::display() {
