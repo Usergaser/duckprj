@@ -18,6 +18,7 @@ SOURCES += \
         main.cpp \
     duck.cpp \
     mallardduck.cpp \
+    quackalive.cpp \
     quackbehavior.cpp \
     redheadduck.cpp \
     rubberduck.cpp \
@@ -34,6 +35,7 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 HEADERS += \
     duck.h \
     mallardduck.h \
+    quackalive.h \
     quackbehavior.h \
     redheadduck.h \
     rubberduck.h \

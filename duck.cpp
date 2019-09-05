@@ -4,6 +4,9 @@ Duck::Duck()
 {
 
 }
+void Duck::performQuack(){
+    quackbehavior->quack();
+}
 
 void Duck::performFly() {
     flyBehavior->fly();
