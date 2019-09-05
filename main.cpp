@@ -1,7 +1,7 @@
 #include <QCoreApplication>
 #include "duck.h"
 #include "mallardduck.h"
-#include"rubberduck.h
+#include"rubberduck.h"fff
 
 int main(int argc, char *argv[])
 {
